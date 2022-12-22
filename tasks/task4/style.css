@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+ 
+
+/* Start Header */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.4s;
+}
+
+header .nav {
+    position: relative;
+    display: flex;
+}
+
+header .nav li {
+    list-style: none;
+    margin-left: 30px;
+}
+
+header .nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+}
+
+/* End Header */
+
+/* Start Landing */
+.ban {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./images/bac-GDSC.jpg');
+    background-size: cover;
+}
+
+.ban .content {
+    text-align: center;
+    max-width: 900px;
+}
+
+.ban .content h2 {
+    color: #fff;
+    font-size: 4em;
+    margin: 30px;
+}
+
+.ban .content p {
+    color: #fff;
+    font-size: 18px;
+    margin: 20px;
+}
+
+.ban .content a {
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: #8c8a02d7;
+    border: 1px solid rgb(123, 123, 123);
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 6px;
+    transition: 0.4s;
+}
+
+.ban .content a:last-child {
+    background-color: transparent;
+}
+
+.ban .content a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* End Landing */
+/* Start About */
+.about {
+    padding: 100px;
+
+}
+
+.about .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about .row .col {
+    position: relative;
+    width: 48%;
+}
+
+.about .row .col ul {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.about .row .col ul li {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.about .row .col h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
+.about .row .col p {
+    line-height: 1.7;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.about .row .col .imgx {
+    position: relative;
+    width: 100%;
+    height: 300%;
+
+}
+
+.about .row .col .imgx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+/* End About */
+.about2 {
+    background-color: #ddd;
+    padding: 100px;
+    margin: 100px auto;
+
+}
+
+.about2 .row {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about2 .row .text {
+    position: relative;
+    margin: 0 40px;
+    width: 48%;
+}
+
+.about2 .row .text ul {
+    margin-top: 50px;
+    list-style: none;
+}
+
+.about2 .row .text ul li {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.about2 .row .text h2 {
+    font-size: 40px;
+    margin: 0;
+    padding: 20px 0;
+
+}
+
+.about2 .row .text p {
+    line-height: 1.7;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.about2 .imgx {
+    position: relative;
+    width: 100%;
+    height: 300%;
+    min-height: 300px;
+}
+
+.about2 .imgx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
+
+
+.container {
+    margin: 50px;
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 40px;
+    padding: 20px 0;
+}
+
+.container p {
+    padding: 20px 0;
+}
+
+.container .con {
+    display: flex;
+    gap: 40px;
+
+}
+
+.container .text h3 {
+    font-size: 30px;
+    margin: 10px 0;
+
+}
+
+.container .text p {
+    font-size: 18px;
+    color: #777;
+    line-height: 1.7;
+
+}
+
+.container .con img {
+    width: 400px;
+}
+
+footer {
+    width: 100%;
+}
+footer  img{
+   max-width: 100%;
+}
+
+/* Eslam Almasoudy */
